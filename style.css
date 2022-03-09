@@ -62,7 +62,7 @@ body{
     margin-left: 5rem;
 }
 #background{
-    background: url(images/layered-peaks-haikei2.svg);
+    background: url(images/ffflurry\ \(1\).svg);
     position: relative;
     background-color: #101010;
     max-width: 100%;
@@ -98,15 +98,17 @@ body{
     margin-left: 26rem;
     padding: 15px 35px 15px 35px;
     font-size: 1.8rem;
-    background-color: #060606;
+    background-color: #19bb4a;
     border: none;
     color: #fff;
     font-family: 'Anton', sans-serif;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px #19bb4a;
     text-decoration: none;
+    transition: 0.5s;
 }
 #github:hover{
-    opacity: 0.8;
+    box-shadow: 0 0 5px #19bb4a, 0 0 7px #19bb4a, 0 0 8px #19bb4a, 0 0 12px #19bb4a;
 }
 .aboutme{
     position: relative;
