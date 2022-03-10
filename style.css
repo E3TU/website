@@ -99,6 +99,7 @@ body{
     padding: 15px 35px 15px 35px;
     font-size: 1.8rem;
     background-color: #19bb4a;
+    font-family: 'Cabin', sans-serif;
     border: none;
     color: #fff;
     border-radius: 5px;
@@ -254,12 +255,12 @@ body{
     .backgroundtext{
         margin: 0 auto;
         width: 21rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         letter-spacing: 0;
     }
     #github{
         padding: 10px 25px 10px 25px;
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .gridcontainer{
         width: auto;
