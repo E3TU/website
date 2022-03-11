@@ -248,6 +248,7 @@ body{
         line-height: 25px;
         font-size: 1.8rem;
         text-align: left;
+        line-height: 2rem;
     }
     .text i{
         font-size: 5rem;
@@ -256,7 +257,6 @@ body{
         margin: 0 auto;
         width: 21rem;
         font-size: 1.2rem;
-        letter-spacing: 0;
     }
     #github{
         padding: 10px 25px 10px 25px;
