@@ -154,6 +154,10 @@ body{
     height: 192vh;
     width: 100%;
 }
+.container{
+    display: flex;
+    
+}
 .header2{
     position: relative;
     color: #fff;
