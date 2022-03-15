@@ -165,52 +165,22 @@ body{
     margin-top: 25px;
     border: 1px solid #19bb4a;
 }
-.gridcontainer{
-    width: 30rem;
-    position: relative;
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: auto auto;
-    padding: 10px;
-    height: 25%;
-    gap: 10px;
+.container{
+    display: block;
+    height: auto;
+    width: auto;
 }
-.grid1{
-    display: flex;
-    align-items: center;
-    background-color: #19bb4a; 
-    grid-row-start: 2;
-    grid-column-start: 1;
-    
-    grid-row-end: 2;
-    grid-column-end: 2;
-}
-.grid2{
-    display: flex;
-    background-color: #19bb4a; 
-    grid-row-start: 2;
-    grid-column-start: 2;
- 
-    grid-row-end: 3;
-    grid-column-end: 3;
-}
-.grid3{
-    display: flex;
-    background-color: #19bb4a; 
-   grid-row-start: 1;
-   grid-column-start: 1;
-
-   grid-row-end: 2;
-   grid-column-end: 2;
-}
-.grid4{
-    display: flex;
-   background-color: #19bb4a; 
-   grid-row-start: 1;
-   grid-column-start: 2;
-
-   grid-row-end: 2;
-   grid-column-end: 3;;
+.box{
+    background-color: #19bb4a;
+    margin: 5rem auto;
+    width: 70rem;
+    height: 20rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 20px #19bb4a;
+    color: white;
+    text-align: center;
+    padding-top: 1.2rem;
+    font-size: 1rem;
 }
 .header3{
     position: relative;
@@ -261,9 +231,6 @@ body{
     #github{
         padding: 10px 25px 10px 25px;
         margin-left: 2.5rem;
-    }
-    .gridcontainer{
-        width: auto;
     }
 }
  ::-webkit-scrollbar{
