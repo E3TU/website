@@ -171,16 +171,19 @@ body{
     width: auto;
 }
 .box{
-    background-image: linear-gradient(to right, #19bb4a , #13a579);
+    background-image: linear-gradient(to right, #19bb4a , #13a0a5);
     margin: 5rem auto;
     width: 70rem;
     height: 20rem;
     border-radius: 2rem;
     color: white;
-    text-align: left;
+    text-align: center;
     padding-top: 1.2rem;
     padding-left: 1.2rem;
     font-size: 1.5rem;
+}
+.box h1{
+    letter-spacing: 0.1rem;
 }
 .header3{
     position: relative;
