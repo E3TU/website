@@ -171,16 +171,16 @@ body{
     width: auto;
 }
 .box{
-    background-color: #19bb4a;
+    background-image: linear-gradient(to right, #19bb4a , #13a579);
     margin: 5rem auto;
     width: 70rem;
     height: 20rem;
     border-radius: 2rem;
-    box-shadow: 0 0 20px #19bb4a;
     color: white;
-    text-align: center;
+    text-align: left;
     padding-top: 1.2rem;
-    font-size: 1rem;
+    padding-left: 1.2rem;
+    font-size: 1.5rem;
 }
 .header3{
     position: relative;
