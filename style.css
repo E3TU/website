@@ -94,7 +94,7 @@ body{
     z-index: 500;
     display: flex;
     width: 5rem;
-    top: 32%;
+    top: 29%;
     margin-left: 26rem;
     padding: 15px 35px 15px 35px;
     font-size: 1.8rem;
@@ -119,15 +119,14 @@ body{
     position: relative;
     color: #fff;
     font-size: 5rem;
-    line-height: 2;
-    text-align: left;
+    text-align: center;
 }
 .textcontainer{
     margin: 0 auto;
     position: relative;
-    top: 5%;
     width: 40rem;
     height: auto;
+    text-align: left;
 }
 .text{
     color: #fff;
@@ -136,9 +135,12 @@ body{
 .text i{
     font-size: 9.3rem;
 }
-.line{
-    margin-top: 25px;
-    border: 1px solid #19bb4a;
+.kuva{
+    margin-top: 130px;
+    margin-left: 200px;
+    width: 300px;
+    height: 300px;
+    float: left;
 }
 .fa-html5{
     color: #e34c26;
@@ -161,10 +163,6 @@ body{
     line-height: 2;
     text-align: center;
 }
-.line2{
-    margin-top: 25px;
-    border: 1px solid #19bb4a;
-}
 .container{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -182,16 +180,26 @@ body{
 .box h1{
     letter-spacing: 0.1rem;
 }
+.image{
+    width: 25rem;
+    height: 15rem;
+}
+.textarea{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+.textarea p{
+    font-size: 0.8rem;
+}
 .header3{
     position: relative;
     color: #fff;
     font-size: 4rem;
-    top: 2%;
+    line-height: 2;
     text-align: center;
-}
-.line3{
-    border: 1px solid #19bb4a;
-    margin-top: 25px;
 }
 .contact{
     position: relative;
