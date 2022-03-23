@@ -265,10 +265,7 @@ textarea{
 .captcha{
     width: 25rem;
     text-align: left;
-    margin-top: 2rem auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 #submit{
     background-color: #19bb4a;
