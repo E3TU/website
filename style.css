@@ -209,6 +209,63 @@ body{
     height: 92vh;
     width: 100%;
 }
+.contactform{
+    position: relative;
+    margin: 0 auto;
+    color: #fff;
+    width: 50rem;
+    height: 40rem;
+}
+.contactform p{
+    font-size: 3rem;
+}
+#submit{
+    background-color: #19bb4a;
+    border: 1px solid #fff;
+    width: 5rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 25px #19bb4a;
+    border: none;
+    color: #fff;
+}
+.part{
+    width: 25rem;
+    text-align: left;
+    margin: auto;
+}
+input{
+    height: 3rem;
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: #393939;
+    border: none;
+}
+textarea{
+    height: 6rem;
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: #393939;
+    border: none;
+}
+.part2{
+    width: 25rem;
+    text-align: left;
+    margin: auto;
+}
+.part3{
+    width: 25rem;
+    text-align: left;
+    margin: auto;
+}
+.part4{
+    width: 25rem;
+    text-align: left;
+    margin: auto;
+}
 @media only screen and (max-width : 600px) {
     .logo{
         margin-left: 2rem;

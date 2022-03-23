@@ -13,7 +13,7 @@
       <li><a class="colored" href="#">Home</a></li>
       <li><a href="#header">About me</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
     <h1 class="logo">E3TU</h1>
   </nav>
@@ -71,28 +71,33 @@
     </div>
   </div>
   <div class="contact" id="contact">
-    <h1 class="header3">Contact</h1>
-    <form name="contact" method="POST" data-netlify="true">
-      <p>
-        <label>Your Name: <input type="text" name="name" /></label>   
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label>Subject: <textarea name="subject"></textarea></label>
-      </p>
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
-      </p>
-      <div class="captcha">
-        <div data-netlify-recaptcha="true"></div>
-      </div>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
-  </div>
+    <h1 class="header3">Contact</h1>>
+      <form class="contactform" name="contactform" method="POST" data-netlify="true">
+        <div class="part">
+          <p>
+            <label>Name<input type="text" name="name" class="name"/></label>   
+          </p>
+        </div>
+        <div class="part2">
+          <p>
+            <label>Email<input type="email" name="email" /></label>
+          </p>
+        </div>
+        <div class="part3">
+          <p>
+            <label>Message<textarea name="message"></textarea></label>
+          </p>
+        </div>
+        <div class="captcha">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+        <div class="part4">
+          <p>
+            <button id="submit" type="submit">Send</button>
+          </p>
+        </div>
+      </form>
+    </div>
 <script src="https://kit.fontawesome.com/2cc1db7ccc.js" crossorigin="anonymous"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
 <script>
