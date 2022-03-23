@@ -237,19 +237,23 @@ body{
 }
 input{
     height: 3rem;
+    font-size: 1.5rem;
     display: block;
     margin: auto;
     width: 100%;
     background-color: #393939;
     border: none;
+    color: #fff;
 }
 textarea{
     height: 6rem;
+    font-size: 1.5rem;
     display: block;
     margin: auto;
     width: 100%;
     background-color: #393939;
     border: none;
+    color: #fff;
 }
 .part2{
     width: 25rem;
