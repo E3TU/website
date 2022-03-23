@@ -123,24 +123,27 @@ body{
 }
 .textcontainer{
     margin: 0 auto;
-    position: relative;
+    padding: 2rem;
     width: 40rem;
     height: auto;
-    text-align: left;
+    text-align: center;
+}
+.background{
+    position: relative;
+    margin: 0 auto;
+    background-color: #292929;
+    width: 70rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #19bb4a;
+    top: 5%;
 }
 .text{
+    text-align: left;
     color: #fff;
     font-size: 1.5rem;
 }
 .text i{
     font-size: 9.3rem;
-}
-.kuva{
-    margin-top: 130px;
-    margin-left: 200px;
-    width: 300px;
-    height: 300px;
-    float: left;
 }
 .fa-html5{
     color: #e34c26;
@@ -153,7 +156,7 @@ body{
 }
 .projects{
     position: relative;
-    height: 192vh;
+    height: 70rem;
     width: 100%;
 }
 .header2{
@@ -169,7 +172,7 @@ body{
 }
 .box{
     background-color: #292929;
-    box-shadow: 0 0 5px #fff; 
+    box-shadow: 0 0 5px #19bb4a; 
     margin: 2rem auto;
     width: 25rem;
     height: 20rem;
@@ -239,6 +242,9 @@ body{
     #github{
         padding: 10px 25px 10px 25px;
         margin-left: 2.5rem;
+    }
+    .container{
+        display: none;
     }
 }
  ::-webkit-scrollbar{
