@@ -116,6 +116,7 @@ body{
     width: 100%;
 }
 .header{
+    line-height: 2;
     position: relative;
     color: #fff;
     font-size: 5rem;
@@ -123,27 +124,23 @@ body{
 }
 .textcontainer{
     margin: 0 auto;
-    padding: 2rem;
-    width: 40rem;
+    width: 35rem;
     height: auto;
     text-align: center;
 }
 .background{
     position: relative;
     margin: 0 auto;
-    background-color: #292929;
-    width: 70rem;
-    border-radius: 15px;
-    box-shadow: 0 0 20px #19bb4a;
-    top: 5%;
+    width: auto;
 }
 .text{
+    
     text-align: left;
     color: #fff;
     font-size: 1.5rem;
 }
 .text i{
-    font-size: 9.3rem;
+    font-size: 6.3rem;
 }
 .fa-html5{
     color: #e34c26;
