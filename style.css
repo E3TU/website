@@ -94,7 +94,7 @@ body{
     z-index: 500;
     display: flex;
     width: 5rem;
-    top: 29%;
+    top: 31%;
     margin-left: 26rem;
     padding: 15px 35px 15px 35px;
     font-size: 1.8rem;
@@ -127,14 +127,16 @@ body{
     width: 35rem;
     height: auto;
     text-align: center;
+    background-color: #292929;
+    padding: 2rem;
+    border-radius: 12px;
 }
-.background{
-    position: relative;
-    margin: 0 auto;
-    width: auto;
+.textcontainer h2{
+    color: #19bb4a;
+    text-align: left;
+    line-height: 2;
 }
 .text{
-    
     text-align: left;
     color: #fff;
     font-size: 1.5rem;
