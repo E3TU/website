@@ -62,12 +62,10 @@ body{
     font-size: 2.18rem;
     margin-left: 25rem;
 }
-#background{
-    background: url(images/bg1.svg);
-    position: relative;
+.container{
     background-color: #101010;
-    max-width: 100%;
     height: 62.5rem;
+    width: 100%;
 }
 .backgroundtext{
     position: relative;
@@ -150,49 +148,6 @@ body{
 }
 .fa-js{
     color: #f0db4f;
-}
-.projects{
-    position: relative;
-    height: 70rem;
-    width: 100%;
-}
-.header2{
-    position: relative;
-    color: #fff;
-    font-size: 5rem;
-    line-height: 2;
-    text-align: center;
-}
-.container{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-.box{
-    background-color: #292929;
-    box-shadow: 0 0 5px #19bb4a; 
-    margin: 2rem auto;
-    width: 25rem;
-    height: 20rem;
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-}
-.box h1{
-    letter-spacing: 0.1rem;
-}
-.image{
-    width: 25rem;
-    height: 15rem;
-}
-.textarea{
-    width: 100%;
-    height: auto;
-    text-align: left;
-    margin-left: 1rem;
-    font-size: 1.2rem;
-}
-.textarea p{
-    font-size: 0.8rem;
 }
 .header3{
     position: relative;
